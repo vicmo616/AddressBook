@@ -1,4 +1,12 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+﻿﻿:root {
+    --primary-color: #1d5888;
+    --secondary-color: purple;
+    --dark-color: #292929;
+    --white-color: #dff3e4;
+}
+
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
@@ -68,4 +76,28 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+.fas {
+    color: #FFBD4A;
+}
+
+.bsicon {
+    color: #8312FA !important;
+}
+
+.jsicon {
+    color: #F0DB4F;
+}
+
+.html5icon {
+    color: #E44D26;
+}
+
+.cssicon {
+    color: #0A71B8;
+}
+
+
+.checklist > li i {
+    color: var(--secondary-color);
 }
